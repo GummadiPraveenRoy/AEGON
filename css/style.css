@@ -10,8 +10,7 @@ body {
     background: #161e1c;
 }
 
-
-
+/* announcement */
 .announcement {
     width: 100%;
     background: #19c37d;
@@ -25,7 +24,7 @@ body {
     margin-right: 8px;
 }
 
-
+/* header */
 
 header {
     background: #121d19;
@@ -78,7 +77,6 @@ header {
 }
 
 
-
 nav ul {
     list-style: none;
     display: flex;
@@ -108,7 +106,6 @@ nav ul li a:hover {
     border-bottom: 3px solid #19c37d;
     padding-bottom: 8px;
 }
-
 
 .mega-menu {
 
@@ -234,8 +231,6 @@ nav ul li a:hover {
     color: white;
     border-radius: 16px;
 }
-
-
 
 #menu {
 
@@ -365,7 +360,6 @@ nav ul li a:hover {
 }
 
 
-
 @media (max-width:576px) {
 
     .logo h1 {
@@ -391,7 +385,7 @@ nav ul li a:hover {
 
 }
 
-/* ================= HERO ================= */
+/* banner */
 
 .hero {
 
@@ -556,7 +550,7 @@ nav ul li a:hover {
     margin-top: 8px;
 }
 
-/* ================= FLOATING CARDS ================= */
+/* FLOATING CARDS */
 
 .floating-card {
 
@@ -588,7 +582,6 @@ nav ul li a:hover {
     animation: floatY 5s ease-in-out infinite;
 }
 
-/* Top Card */
 
 .order-card {
 
@@ -597,7 +590,6 @@ nav ul li a:hover {
     right: 80px;
 }
 
-/* Bottom Card */
 
 .rating-card {
 
@@ -606,7 +598,7 @@ nav ul li a:hover {
     right: 120px;
 }
 
-/* Icon */
+
 
 .card-icon {
 
@@ -634,7 +626,6 @@ nav ul li a:hover {
     font-size: 24px;
 }
 
-/* Text */
 
 .card-content {
 
@@ -687,16 +678,6 @@ nav ul li a:hover {
     }
 }
 
-/* Responsive */
-
-@media(max-width:992px) {
-
-    .floating-card {
-
-        display: none;
-    }
-
-}
 
 @media(max-width:992px) {
 
