@@ -4,12 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | AEGON</title>
-
-    <link rel="stylesheet" href="../css/about.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
+    <title>Offers Coming Soon | AEGON</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/offer.css">
 </head>
 <svg style="position:absolute; width:0; height:0; overflow:hidden;">
     <defs>
@@ -155,615 +153,137 @@
 <body>
 
     <div class="announcement">
-
         <marquee>
-
             <i class="fa-solid fa-truck fa-flip-horizontal"></i>
-
             <strong>Free Delivery</strong>
-
             on your first order —
-
             use code
-
             <strong>WELCOME50</strong>
-
             for 50% OFF!
-
         </marquee>
-
     </div>
 
-    <!-- Header -->
-
     <header>
-
         <div class="container">
-
-
-
             <div class="logo">
-
                 <div class="logo-box">
-
                     <i class="fa-solid fa-leaf"></i>
-
                 </div>
-
                 <h1>AEGON</h1>
-
             </div>
-
-
             <input type="checkbox" id="menu">
-
             <label for="menu" class="menu-btn">
-
                 <i class="fa-solid fa-bars"></i>
-
             </label>
-
             <nav>
-
                 <ul>
-
-                    <li><a href="../html/index.html">Home</a></li>
-
-                    <li><a  class="active"  href="../html/about.html">About</a></li>
-
-                    <!-- Categories -->
+                    <li><a  href="../html/index.html">Home</a></li>
+                    <li><a href="../html/about.html">About</a></li>
 
                     <li class="dropdown">
-
                         <a href="#">
-
                             Categories
-
                             <i class="fa-solid fa-angle-down"></i>
-
                         </a>
-
                         <div class="mega-menu">
-
                             <div class="column">
-
                                 <h3>Fresh Produce</h3>
-
                                 <a href="#">Vegetables</a>
-
                                 <a href="#">Fruits</a>
-
                                 <a href="#">Groceries</a>
-
                             </div>
-
                             <div class="column">
-
                                 <h3>Dairy & Bakery</h3>
-
                                 <a href="#">Dairy</a>
-
                                 <a href="#">Bakery</a>
-
                                 <a href="#">Frozen Foods</a>
-
                             </div>
-
                             <div class="column">
-
                                 <h3>Snacks & More</h3>
-
                                 <a href="#">Snacks</a>
-
                                 <a href="#">Beverages</a>
-
                                 <a href="#">Personal Care</a>
-
                                 <a href="#">Household</a>
-
                             </div>
-
                         </div>
-
                     </li>
-
                     <li><a href="#">Products</a></li>
-
-                    <li><a href="../html/offer.html">Offers</a></li>
-
+                    <li><a class="active" href="../html/offer.html">Offers</a></li>
                     <li><a href="#">Cart</a></li>
-
                 </ul>
-
             </nav>
 
-
             <div class="profile">
-
                 <i class="fa-regular fa-circle-user"></i>
-
                 <div class="profile-menu">
-
                     <a href="#">Login</a>
-
                     <a href="#">Sign Up</a>
-
                 </div>
-
             </div>
-
         </div>
-
     </header>
 
+    <main id="main">
+        <div class="auth-page" style="min-height: calc(100vh - 84px - 120px);">
 
-    <section class="page-banner" aria-labelledby="about-hero-title">
-
-        <div class="floating-shapes" aria-hidden="true">
-            <span class="anim-float-slow shape-primary"></span>
-            <span class="anim-float shape-accent"></span>
-        </div>
-
-        <div class="container2">
-
-            <ul class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li>/</li>
-                <li><a href="#about" class="active">About</a></li>
-            </ul>
-
-            <div class="hero-eyebrow">
-                <svg class="icon" width="14" height="14" aria-hidden="true">
-                    <use href="#icon-leaf"></use>
-                </svg>
-                <span>Our Story</span>
-            </div>
-
-            <h1 id="about-hero-title">
-                Delivering
-                <span class="text-gradient">Freshness</span>
-                to Every Doorstep
-            </h1>
-
-            <p>
-                AEGON was built on one simple idea — grocery shopping should be fast,
-                fresh and effortless. Here's what drives us every single day.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <section class="section" id="about-aegon">
-
-        <div class="container2">
-
-            <div class="section-head">
-
-                <span class="eyebrow">About AEGON</span>
-
-                <h2>A New Standard for Grocery Delivery</h2>
-
-                <p>
-                    Founded with a simple obsession — freshness that never waits —
-                    AEGON connects local dark-stores, verified suppliers and a trained
-                    delivery fleet into one seamless experience. From the first tap to
-                    the knock on your door, every step is designed around speed,
-                    quality and trust. Today, AEGON serves millions of households
-                    across the country, delivering farm-fresh produce, dairy and daily
-                    essentials in as little as ten minutes.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="mission-section" id="mission-vision">
-
-        <div class="container2">
-
-            <div class="section-head">
-                <span class="eyebrow">Our Purpose</span>
-                <h2>Mission & Vision</h2>
-            </div>
-
-            <div class="mission-vision">
-
-                <!-- Mission -->
-
-                <div class="card">
-
-                    <div class="icon">
-                        <i class="fa-solid fa-bullseye"></i>
+            <div class="container2"
+                style="position:relative; z-index:1; padding-block:6rem; text-align:center;">
+                <!-- Illustration placeholder -->
+                <div style="position:relative; width:180px; height:180px; margin:0 auto 2rem;">
+                    <div class="anim-glow"
+                        style="position:absolute; inset:0; border-radius:50%; background:linear-gradient(135deg, hsl(152, 68%, 46%) 0%, hsl(168, 76%, 40%) 100%); opacity:0.9;">
                     </div>
-
-                    <h3>Our Mission</h3>
-
-                    <p>
-                        To make fresh groceries accessible to every household
-                        in minutes, not hours—without compromising on quality,
-                        price or the planet.
-                    </p>
-
-                </div>
-
-                <!-- Vision -->
-
-                <div class="cards">
-
-                    <div class="icon">
-                        <i class="fa-solid fa-eye"></i>
-                    </div>
-
-                    <h3>Our Vision</h3>
-
-                    <p>
-                        To become the most trusted grocery partner in every city
-                        we serve, powered by technology, sustainability and
-                        genuine care for our communities.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section class="why-section" id="why-us">
-
-        <div class="container2">
-
-            <div class="section-head">
-
-                <span class="eyebrow">Why Choose AEGON</span>
-
-                <h2>The AEGON Difference</h2>
-
-                <p>
-                    We obsess over the details so your groceries arrive
-                    fast, fresh and exactly as ordered.
-                </p>
-
-            </div>
-
-            <div class="feature-grid">
-
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        <span class="feature-card__icon"><svg class="icon" width="28" height="28" aria-hidden="true">
-                                <use href="#icon-clock"></use>
-                            </svg></span>
-                    </div>
-
-                    <h3>10-Minute Delivery</h3>
-
-                    <p>
-                        Our dark-store network keeps essentials minutes
-                        away from every neighborhood.
-                    </p>
-
-                </div>
-
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        <svg class="icon" width="28" height="28" aria-hidden="true">
-                            <use href="#icon-shield"></use>
+                    <div class="anim-float" style="position:absolute; inset:0; display:grid; place-items:center;">
+                        <svg class="icon" width="80" height="80" style="color: white;" aria-hidden="true">
+                            <use href="#icon-percent"></use>
                         </svg>
                     </div>
-
-                    <h3>Freshness Guarantee</h3>
-
-                    <p>
-                        Not happy with the quality? We replace or refund —
-                        no questions asked.
-                    </p>
-
+                    <span class="badge badge--gradient"
+                        style="position:absolute; top:-6px; right:-10px; animation: pop 2.4s ease-in-out infinite;">SOON</span>
                 </div>
 
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        <svg class="icon" width="28" height="28" aria-hidden="true">
-                            <use href="#icon-tag"></use>
-                        </svg>
-                    </div>
-
-                    <h3>Best Price Promise</h3>
-
-                    <p>
-                        Transparent pricing with everyday low prices —
-                        no hidden surge charges.
-                    </p>
-
-                </div>
-
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        <svg class="icon" width="28" height="28" aria-hidden="true">
-                            <use href="#icon-headset"></use>
-                        </svg>
-                    </div>
-
-                    <h3>24/7 Support</h3>
-
-                    <p>
-                        Our support team is always awake,
-                        just like your midnight cravings.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section class="stats-section" id="stats">
-
-        <div class="container2">
-
-            <div class="section-head">
-
-                <span class="eyebrow">By The Numbers</span>
-
-                <h2>Trusted at Scale</h2>
-
-            </div>
-
-            <div class="stats-grid">
-
-                <div class="stat-card">
-
-                    <div class="stat-icon">
-                        <i class="fa-solid fa-motorcycle"></i>
-                    </div>
-
-                    <h3>12,000+</h3>
-
-                    <p>Delivery Partners</p>
-
-                </div>
-
-                <div class="stat-card">
-
-                    <div class="stat-icon">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-
-                    <h3>2M+</h3>
-
-                    <p>Happy Customers</p>
-
-                </div>
-
-                <div class="stat-card">
-
-                    <div class="stat-icon">
-                        <i class="fa-solid fa-box"></i>
-                    </div>
-
-                    <h3>40M+</h3>
-
-                    <p>Orders Delivered</p>
-
-                </div>
-
-                <div class="stat-card">
-
-                    <div class="stat-icon">
-                        <i class="fa-solid fa-map-location-dot"></i>
-                    </div>
-
-                    <h3>85+</h3>
-
-                    <p>Cities Covered</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section class="signature-section" id="signature-picks">
-
-        <div class="container2">
-
-            <div class="section-head">
-
-                <span class="eyebrow">Signature Picks</span>
-
-                <h2>A Taste of What We Deliver</h2>
-
-                <p>
-                    A pure CSS 3D carousel — hover to pause and
-                    take a closer look.
+                <span class="hero__eyebrow" style="color:white;">
+                    <svg class="icon" width="14" height="14" aria-hidden="true">
+                        <use href="#icon-percent"></use>
+                    </svg>
+                    Something Big Is Brewing
+                </span>
+                <h1 class="text-balance" style="margin-top:1rem; max-width:16ch; margin-inline:auto;">
+                    Exciting <span class="text-gradient">Offers</span> Are Coming Soon
+                </h1>
+                <p style="max-width:54ch; margin-inline:auto; color:hsla(0,0%,100%,0.78);">
+                    We're cooking up flash sales, combo deals and exclusive discounts. Subscribe below and be the
+                    first to grab them the moment they go live.
                 </p>
 
-            </div>
-
-            <div class="carousel">
-
-                <div class="carousel-box">
-
-                    <div class="carousel-card">
-                        <i class="fa-solid fa-seedling"></i>
-                        <h3>Organic Avocados</h3>
-                        <p>Hand-picked, buttery-soft, ready to eat.</p>
-                    </div>
-
-                    <div class="carousel-card">
-                        <i class="fa-solid fa-glass-water"></i>
-                        <h3>Farm Fresh Milk</h3>
-                        <p>Chilled within the hour, delivered daily.</p>
-                    </div>
-
-                    <div class="carousel-card">
-                        <i class="fa-solid fa-bread-slice"></i>
-                        <h3>Artisan Sourdough</h3>
-                        <p>Baked fresh every morning, no preservatives.</p>
-                    </div>
-
-                    <div class="carousel-card">
-                        <i class="fa-solid fa-mug-hot"></i>
-                        <h3>Cold Brew Coffee</h3>
-                        <p>Slow-steeped for 18 hours, bottled cold.</p>
-                    </div>
-
-                    <div class="carousel-card">
-                        <i class="fa-solid fa-jar"></i>
-                        <h3>Golden Raw Honey</h3>
-                        <p>Single-origin, unfiltered, naturally sweet.</p>
-                    </div>
-
-                    <div class="carousel-card">
-                        <i class="fa-solid fa-cheese"></i>
-                        <h3>Alpine Yogurt</h3>
-                        <p>Creamy, probiotic-rich, thick-set daily.</p>
-                    </div>
-
+                <div class="countdown" style="justify-content:center; margin-block:2rem;" role="timer"
+                    aria-label="Launching in 3 days 12 hours 40 minutes">
+                    <div class="countdown__unit"><span class="countdown__num">03</span><span
+                            class="countdown__label">Days</span></div>
+                    <div class="countdown__unit"><span class="countdown__num">12</span><span
+                            class="countdown__label">Hrs</span></div>
+                    <div class="countdown__unit"><span class="countdown__num">40</span><span
+                            class="countdown__label">Min</span></div>
                 </div>
 
+                <form action="#" method="get" class="newsletter-form" style="margin-inline:auto;">
+                    <div class="newsletter-form__row">
+                        <label for="notify-email" class="sr-only">Email address</label>
+                        <input type="email" id="notify-email" name="email" placeholder="Enter your email address"
+                            required="">
+                        <button type="submit" class="btn btn--primary">Notify Me</button>
+                    </div>
+                </form>
+
+                <a href="index.html" class="btn btn--outline-light" style="margin-top:2rem;">
+                    <svg class="icon" width="16" height="16" aria-hidden="true" style="transform:rotate(180deg);">
+                        <use href="#icon-arrow-right"></use>
+                    </svg>
+                    Back to Home
+                </a>
             </div>
-
-            <p class="carousel-hint">
-                Hover over the carousel to pause the rotation.
-            </p>
-
         </div>
-
-    </section>
-
-
-    <section class="reviews-section" id="reviews">
-
-        <div class="container2">
-
-            <div class="section-head">
-
-                <span class="eyebrow">Customer Reviews</span>
-
-                <h2>What People Are Saying</h2>
-
-            </div>
-
-            <div class="review-grid">
-
-                <!-- Review 1 -->
-
-                <div class="review-card">
-
-                    <div class="review-header">
-
-                        <div class="review-avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div>
-                            <h3>Priya Desai</h3>
-                            <span>Verified Customer, Mumbai</span>
-                        </div>
-
-                    </div>
-
-                    <div class="review-stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                    <p>
-                        "AEGON has completely replaced my weekly supermarket trips.
-                        Everything arrives fresher than I expect, every time."
-                    </p>
-
-                </div>
-
-                <!-- Review 2 -->
-
-                <div class="review-card">
-
-                    <div class="review-header">
-
-                        <div class="review-avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div>
-                            <h3>Arjun Rao</h3>
-                            <span>Verified Customer, Bengaluru</span>
-                        </div>
-
-                    </div>
-
-                    <div class="review-stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                    <p>
-                        "The delivery partners are incredibly professional and
-                        the app experience feels premium from start to finish."
-                    </p>
-
-                </div>
-
-                <!-- Review 3 -->
-
-                <div class="review-card">
-
-                    <div class="review-header">
-
-                        <div class="review-avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div>
-                            <h3>Meera Iyer</h3>
-                            <span>Verified Customer, Pune</span>
-                        </div>
-
-                    </div>
-
-                    <div class="review-stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <p>
-                        "Quality control is genuinely impressive.
-                        I've never received a bruised fruit or an expired product."
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
+    </main>
 
     <footer class="footer">
         <a href="#top" class="back-to-top" aria-label="Back to top">
@@ -947,7 +467,6 @@
         </div>
 
     </footer>
-
 
 </body>
 

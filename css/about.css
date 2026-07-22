@@ -528,7 +528,7 @@ nav ul li a:hover {
 
 
 .page-banner h1 {
-    /* margin-top:0; */
+    margin-top:16px;
     font-size: 58px;
     font-weight: 800;
     line-height: 1;
@@ -545,8 +545,8 @@ nav ul li a:hover {
 .page-banner p {
     max-width: 56ch;
     margin: 0 auto;
-    font-size: 18px;
-    color: rgba(255, 255, 255, .85);
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .section {
