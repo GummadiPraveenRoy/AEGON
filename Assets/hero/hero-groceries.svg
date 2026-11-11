@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Fresh grocery basket illustration</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a4d3c"/>
+      <stop offset="100%" stop-color="#0d2e22"/>
+    </linearGradient>
+    <linearGradient id="basketGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22c58b"/>
+      <stop offset="100%" stop-color="#12946a"/>
+    </linearGradient>
+    <linearGradient id="tomatoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff8a4c"/>
+      <stop offset="100%" stop-color="#f0563a"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ee6b0"/>
+      <stop offset="100%" stop-color="#2fbf82"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" fill="url(#bgGrad)"/>
+  <circle cx="360" cy="120" r="140" fill="#ffb454" opacity="0.18"/>
+  <circle cx="70" cy="480" r="120" fill="#8b5cf6" opacity="0.16"/>
+  <g transform="translate(60,260)">
+    <path d="M20 60 L340 60 L300 300 Q290 330 250 330 L110 330 Q70 330 60 300 Z" fill="url(#basketGrad)"/>
+    <path d="M20 60 L340 60 L332 100 L28 100 Z" fill="#0d2e22" opacity="0.25"/>
+    <path d="M60 60 Q180 -40 300 60" fill="none" stroke="#12946a" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="120" cy="40" r="42" fill="url(#tomatoGrad)"/>
+    <circle cx="200" cy="20" r="52" fill="url(#tomatoGrad)"/>
+    <circle cx="270" cy="46" r="36" fill="#ffd166"/>
+    <path d="M170 -18 q30 -30 60 0" fill="none" stroke="url(#leafGrad)" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="150" cy="200" rx="60" ry="70" fill="#ffffff" opacity="0.12"/>
+    <ellipse cx="250" cy="220" rx="46" ry="56" fill="#ffffff" opacity="0.1"/>
+  </g>
+  <g transform="translate(340,90)" opacity="0.9">
+    <circle r="30" fill="url(#leafGrad)"/>
+    <path d="M-10 4 L-2 12 L14 -10" stroke="#0d2e22" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

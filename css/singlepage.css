@@ -1,0 +1,124 @@
+/* ==========================================================================
+   AEGON — product detail page (loads after style.css + cart.css)
+   ========================================================================== */
+.pdp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.pdp-gallery {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 24px;
+  overflow: hidden;
+  background: hsl(160, 18%, 16%);
+  border: 1px solid hsl(160, 15%, 22%);
+}
+
+.pdp-gallery__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+.pdp-gallery__img--back { opacity: 0; }
+.pdp-gallery:hover .pdp-gallery__img--back { opacity: 1; }
+
+.pdp-gallery__hint {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: hsla(160, 30%, 8%, 0.7);
+}
+
+.pdp-info { display: grid; gap: 1.1rem; }
+.pdp-info h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
+.pdp-rating { display: flex; align-items: center; gap: 6px; }
+.pdp-rating i { color: hsl(42, 96%, 55%); }
+
+.pdp-price-row { display: flex; align-items: baseline; gap: 12px; }
+.pdp-price { font-size: 2.2rem; font-weight: 700; color: hsl(152, 68%, 42%); }
+.pdp-price-old { color: #93a49c; text-decoration: line-through; }
+.pdp-save {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: hsl(4, 86%, 58%);
+  color: #fff;
+}
+
+.pdp-feature-list { list-style: none; display: grid; gap: 8px; }
+.pdp-feature-list i { color: hsl(152, 68%, 42%); margin-right: 8px; }
+
+.pdp-delivery-info {
+  display: grid;
+  gap: 12px;
+  padding: 1rem 1.25rem;
+  border-radius: 16px;
+  background: hsl(160, 22%, 12%);
+  border: 1px solid hsl(160, 15%, 22%);
+}
+
+.pdp-delivery-info > div { display: flex; align-items: center; gap: 14px; }
+.pdp-delivery-info i { font-size: 1.2rem; color: hsl(152, 68%, 42%); width: 24px; text-align: center; }
+.pdp-delivery-info strong { display: block; }
+.pdp-delivery-info span { font-size: 0.85rem; color: #c3cec8; }
+
+.pdp-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+
+.pdp-wish {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid hsl(160, 15%, 26%);
+  cursor: pointer;
+}
+
+.pdp-wish input { position: absolute; opacity: 0; }
+.pdp-wish .icon { fill: none; }
+.pdp-wish:has(input:checked) { color: hsl(4, 86%, 58%); }
+.pdp-wish:has(input:checked) .icon { fill: currentColor; }
+
+/* Tabs */
+.pdp-tabs { margin-top: 3.5rem; }
+.pdp-tabs > input { position: absolute; opacity: 0; }
+.pdp-tabs__nav { display: flex; gap: 8px; border-bottom: 1px solid hsl(160, 15%, 22%); }
+.pdp-tabs__nav label { padding: 0.8rem 1.4rem; cursor: pointer; font-weight: 600; color: #93a49c; border-bottom: 2px solid transparent; }
+.pdp-tabs__panel { display: none; padding-top: 1.5rem; max-width: 70ch; }
+.pdp-tabs__panel h3, .pdp-tabs__panel h4 { margin: 1rem 0 0.4rem; }
+#tab-desc:checked ~ .pdp-tabs__nav label[for="tab-desc"],
+#tab-shipping:checked ~ .pdp-tabs__nav label[for="tab-shipping"] { color: hsl(152, 68%, 42%); border-color: hsl(152, 68%, 42%); }
+#tab-desc:checked ~ .pdp-tabs__panel--desc,
+#tab-shipping:checked ~ .pdp-tabs__panel--shipping { display: block; }
+
+/* Related */
+.pdp-related-title { margin: 3.5rem 0 1.25rem; font-size: 1.6rem; }
+.pdp-related { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.pdp-related__card {
+  display: grid;
+  gap: 6px;
+  padding: 0.75rem;
+  border-radius: 16px;
+  background: hsl(160, 22%, 12%);
+  border: 1px solid hsl(160, 15%, 22%);
+}
+.pdp-related__card img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 10px; background: hsl(160, 18%, 18%); }
+.pdp-related__card span { color: hsl(152, 68%, 42%); font-weight: 600; }
+
+@media (max-width: 800px) {
+  .pdp-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .pdp-related { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="i5">
+  <title id="i5">AEGON happy customer unboxing on Instagram</title>
+  <defs><linearGradient id="ig5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22c58b"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient></defs>
+  <rect width="300" height="300" fill="url(#ig5)"/>
+  <rect x="95" y="130" width="110" height="90" rx="12" fill="#ffffff" opacity="0.85"/>
+  <path d="M95 150 L205 150" stroke="#0f8f63" stroke-width="8" opacity="0.4"/>
+  <path d="M150 130 L150 220" stroke="#0f8f63" stroke-width="8" opacity="0.4"/>
+</svg>

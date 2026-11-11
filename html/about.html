@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | AEGON</title>
 
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/about.css">
 
     <!-- Font Awesome -->
@@ -13,10 +14,6 @@
 </head>
 <svg style="position:absolute; width:0; height:0; overflow:hidden;">
     <defs>
-        <symbol id="icon-location" viewBox="0 0 24 24">
-            <path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12Z" />
-            <circle cx="12" cy="9" r="2.5" />
-        </symbol>
         <symbol id="icon-chevron-down" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6" />
         </symbol>
@@ -177,123 +174,64 @@
     <!-- Header -->
 
     <header>
-
         <div class="container">
-
-
-
-            <div class="logo">
-
+            <a href="index.html" class="logo">
                 <div class="logo-box">
-
                     <i class="fa-solid fa-leaf"></i>
-
                 </div>
-
                 <h1>AEGON</h1>
-
-            </div>
-
-
+            </a>
             <input type="checkbox" id="menu">
-
             <label for="menu" class="menu-btn">
-
                 <i class="fa-solid fa-bars"></i>
-
             </label>
-
             <nav>
-
                 <ul>
-
-                    <li><a href="../html/index.html">Home</a></li>
-
-                    <li><a  class="active"  href="../html/about.html">About</a></li>
-
-                    <!-- Categories -->
-
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
                     <li class="dropdown">
-
-                        <a href="#">
-
+                        <a href="product.html">
                             Categories
-
                             <i class="fa-solid fa-angle-down"></i>
-
                         </a>
-
                         <div class="mega-menu">
-
                             <div class="column">
-
                                 <h3>Fresh Produce</h3>
-
-                                <a href="#">Vegetables</a>
-
-                                <a href="#">Fruits</a>
-
-                                <a href="#">Groceries</a>
-
+                                <a href="product.html#vegetables">Vegetables</a>
+                                <a href="product.html#fruits">Fruits</a>
+                                <a href="product.html#groceries">Groceries</a>
                             </div>
-
                             <div class="column">
-
                                 <h3>Dairy & Bakery</h3>
-
-                                <a href="#">Dairy</a>
-
-                                <a href="#">Bakery</a>
-
-                                <a href="#">Frozen Foods</a>
-
+                                <a href="product.html#dairy">Dairy</a>
+                                <a href="product.html#bakery">Bakery</a>
+                                <a href="product.html#frozen-foods">Frozen Foods</a>
                             </div>
-
                             <div class="column">
-
                                 <h3>Snacks & More</h3>
-
-                                <a href="#">Snacks</a>
-
-                                <a href="#">Beverages</a>
-
-                                <a href="#">Personal Care</a>
-
-                                <a href="#">Household</a>
-
+                                <a href="product.html#snacks">Snacks</a>
+                                <a href="product.html#beverages">Beverages</a>
+                                <a href="product.html#personal-care">Personal Care</a>
+                                <a href="product.html#household">Household</a>
                             </div>
-
                         </div>
-
                     </li>
-
-                    <li><a href="#">Products</a></li>
-
-                    <li><a href="../html/offer.html">Offers</a></li>
-
-                    <li><a href="#">Cart</a></li>
-
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="offer.html">Offers</a></li>
+                    <li><a href="cart.html">Cart
+                            <span class="badge badge--gradient" style="padding:0.1em 0.55em; font-size:10px; margin-left:4px; vertical-align:2px;"><span data-cart-count>0</span></span>
+                        </a></li>
                 </ul>
-
             </nav>
 
-
             <div class="profile">
-
                 <i class="fa-regular fa-circle-user"></i>
-
-                <div class="profile-menu">
-
-                    <a href="./login.html">Login</a>
-
-                    <a href="./signup.html">Sign Up</a>
-
+                <div class="profile-menu" data-account-panel>
+                    <a href="login.html">Login</a>
+                    <a href="signup.html">Sign Up</a>
                 </div>
-
             </div>
-
         </div>
-
     </header>
 
 
@@ -947,8 +885,8 @@
         </div>
 
     </footer>
-
-
+  <script src="../js/storage.js"></script>
+  <script src="../js/nav.js"></script>
 </body>
 
-</html>
+</html>

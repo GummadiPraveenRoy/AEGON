@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="i6">
+  <title id="i6">AEGON fresh greens harvest on Instagram</title>
+  <defs><linearGradient id="ig6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2fbf82"/><stop offset="100%" stop-color="#12946a"/></linearGradient></defs>
+  <rect width="300" height="300" fill="url(#ig6)"/>
+  <path d="M100 210 Q90 140 150 110 Q210 140 200 210 Z" fill="#ffffff" opacity="0.8"/>
+  <path d="M150 110 L150 210" stroke="#12946a" stroke-width="6" opacity="0.4"/>
+</svg>

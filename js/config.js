@@ -1,0 +1,1 @@
+const AEGON_API_BASE = 'https://ageon-api.vercel.app';
